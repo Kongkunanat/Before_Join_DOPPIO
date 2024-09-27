@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.13.0rc2 on win32)" generated="2024-09-27T20:59:08.210221" rpa="false" schemaversion="5">
+<suite id="s1" name="Assignment1" source="C:\Users\Khongkhunanat\Desktop\Before_Join_Doppio\Assignment1.robot">
+<test id="s1-t1" name="Validate" line="6">
+<kw name="VAlidate Age">
+<if>
+<branch type="IF" condition="${age}&gt;18">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Eligible for voting</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2024-09-27T20:59:08.303523" elapsed="0.000050"/>
+</kw>
+<status status="NOT RUN" start="2024-09-27T20:59:08.302859" elapsed="0.000824"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Not eligible for voting</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-27T20:59:08.303903" elapsed="0.000809"/>
+</kw>
+<status status="PASS" start="2024-09-27T20:59:08.303743" elapsed="0.001064"/>
+</branch>
+<status status="PASS" start="2024-09-27T20:59:08.302814" elapsed="0.002039"/>
+</if>
+<arg>16</arg>
+<status status="PASS" start="2024-09-27T20:59:08.302296" elapsed="0.002666"/>
+</kw>
+<kw name="VAlidate Age">
+<if>
+<branch type="IF" condition="${age}&gt;18">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Eligible for voting</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-27T20:59:08.306998" elapsed="0.000853"/>
+</kw>
+<status status="PASS" start="2024-09-27T20:59:08.306374" elapsed="0.001616"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Not eligible for voting</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2024-09-27T20:59:08.308395" elapsed="0.000062"/>
+</kw>
+<status status="NOT RUN" start="2024-09-27T20:59:08.308094" elapsed="0.000496"/>
+</branch>
+<status status="PASS" start="2024-09-27T20:59:08.306315" elapsed="0.002340"/>
+</if>
+<arg>20</arg>
+<status status="PASS" start="2024-09-27T20:59:08.305922" elapsed="0.002912"/>
+</kw>
+<status status="PASS" start="2024-09-27T20:59:08.300595" elapsed="0.008670"/>
+</test>
+<status status="PASS" start="2024-09-27T20:59:08.213945" elapsed="0.097374"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Assignment1">Assignment1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

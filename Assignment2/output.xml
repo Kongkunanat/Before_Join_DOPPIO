@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.13.0rc2 on win32)" generated="2024-09-27T21:14:08.186497" rpa="false" schemaversion="5">
+<suite id="s1" name="Assignment2" source="C:\Users\Khongkhunanat\Desktop\Before_Join_Doppio\Assignment2\Assignment2.robot">
+<test id="s1-t1" name="Validate" line="5">
+<kw name="Print Fruits">
+<for flavor="IN">
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${VALUE}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-27T21:14:08.227796" elapsed="0.000633"/>
+</kw>
+<var name="${VALUE}">apple</var>
+<status status="PASS" start="2024-09-27T21:14:08.227452" elapsed="0.001120"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${VALUE}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-27T21:14:08.229182" elapsed="0.000600"/>
+</kw>
+<var name="${VALUE}">banana cherry</var>
+<status status="PASS" start="2024-09-27T21:14:08.228856" elapsed="0.001019"/>
+</iter>
+<var>${VALUE}</var>
+<value>@{fruits}</value>
+<status status="PASS" start="2024-09-27T21:14:08.227283" elapsed="0.002638"/>
+</for>
+<arg>@{fruits}</arg>
+<status status="PASS" start="2024-09-27T21:14:08.226792" elapsed="0.003248"/>
+</kw>
+<status status="PASS" start="2024-09-27T21:14:08.225949" elapsed="0.004444"/>
+</test>
+<status status="PASS" start="2024-09-27T21:14:08.188415" elapsed="0.043281"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Assignment2">Assignment2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

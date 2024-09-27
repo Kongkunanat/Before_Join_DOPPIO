@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.13.0rc2 on win32)" generated="2024-09-27T21:34:19.120825" rpa="false" schemaversion="5">
+<suite id="s1" name="Assignment4" source="C:\Users\Khongkhunanat\Desktop\Before_Join_Doppio\Assignment4\Assignment4.robot">
+<test id="s1-t1" name="Validate" line="5">
+<kw name="Greet User">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Hello, ${name}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-27T21:34:19.161563" elapsed="0.000618"/>
+</kw>
+<status status="PASS" start="2024-09-27T21:34:19.161065" elapsed="0.001307"/>
+</kw>
+<kw name="Greet User">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Hello, ${name}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-27T21:34:19.162992" elapsed="0.000454"/>
+</kw>
+<arg>John</arg>
+<status status="PASS" start="2024-09-27T21:34:19.162735" elapsed="0.000801"/>
+</kw>
+<status status="PASS" start="2024-09-27T21:34:19.160299" elapsed="0.003561"/>
+</test>
+<status status="PASS" start="2024-09-27T21:34:19.122865" elapsed="0.042424"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Assignment4">Assignment4</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

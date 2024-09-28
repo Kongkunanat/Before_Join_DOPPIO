@@ -11,7 +11,7 @@ Validate
 Print Fruits
     [Arguments]        @{fruits}
     FOR     ${VALUE}    IN   @{fruits}
-        Log To Console  ${VALUE}
+        Log   ${VALUE}
     END
 
 

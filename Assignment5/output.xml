@@ -1,27 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.1 (Python 3.13.0rc2 on win32)" generated="2024-09-27T21:34:19.120825" rpa="false" schemaversion="5">
-<suite id="s1" name="Assignment4" source="C:\Users\Khongkhunanat\Desktop\Before_Join_Doppio\Assignment4\Assignment4.robot">
+<robot generator="Robot 7.1 (Python 3.13.0rc2 on win32)" generated="2024-09-28T03:35:38.611609" rpa="false" schemaversion="5">
+<suite id="s1" name="Assignment5" source="C:\Users\Khongkhunanat\Desktop\Before_Join_Doppio\Assignment5\Assignment5.robot">
 <test id="s1-t1" name="Validate" line="5">
-<kw name="Greet User">
+<kw name="Print All Items">
+<for flavor="IN">
+<iter>
 <kw name="Log To Console" owner="BuiltIn">
-<arg>Hello, ${name}</arg>
+<arg>${item}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-09-27T21:34:19.161563" elapsed="0.000618"/>
+<status status="PASS" start="2024-09-28T03:35:38.792074" elapsed="0.000820"/>
 </kw>
-<status status="PASS" start="2024-09-27T21:34:19.161065" elapsed="0.001307"/>
-</kw>
-<kw name="Greet User">
+<var name="${item}">"apple" "banana"</var>
+<status status="PASS" start="2024-09-28T03:35:38.791740" elapsed="0.001259"/>
+</iter>
+<iter>
 <kw name="Log To Console" owner="BuiltIn">
-<arg>Hello, ${name}</arg>
+<arg>${item}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-09-27T21:34:19.162992" elapsed="0.000454"/>
+<status status="PASS" start="2024-09-28T03:35:38.793220" elapsed="0.000590"/>
 </kw>
-<arg>John</arg>
-<status status="PASS" start="2024-09-27T21:34:19.162735" elapsed="0.000801"/>
+<var name="${item}">"cherry"</var>
+<status status="PASS" start="2024-09-28T03:35:38.793127" elapsed="0.000739"/>
+</iter>
+<var>${item}</var>
+<value>@{items}</value>
+<status status="PASS" start="2024-09-28T03:35:38.791557" elapsed="0.002344"/>
+</for>
+<arg>"apple" "banana"</arg>
+<arg>"cherry"</arg>
+<status status="PASS" start="2024-09-28T03:35:38.791169" elapsed="0.002807"/>
 </kw>
-<status status="PASS" start="2024-09-27T21:34:19.160299" elapsed="0.003561"/>
+<status status="PASS" start="2024-09-28T03:35:38.790209" elapsed="0.004068"/>
 </test>
-<status status="PASS" start="2024-09-27T21:34:19.122865" elapsed="0.042424"/>
+<status status="PASS" start="2024-09-28T03:35:38.685347" elapsed="0.110427"/>
 </suite>
 <statistics>
 <total>
@@ -30,7 +41,7 @@
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Assignment4">Assignment4</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Assignment5">Assignment5</stat>
 </suite>
 </statistics>
 <errors>

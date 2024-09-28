@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.13.0rc2 on win32)" generated="2024-09-29T00:30:16.537276" rpa="false" schemaversion="5">
+<suite id="s1" name="Assignment16" source="C:\Users\Khongkhunanat\Desktop\Before_Join_Doppio\Assignment16\Assignment16.robot">
+<test id="s1-t1" name="Error Handling Example" line="2">
+<kw name="Calculate Factorial">
+<kw name="Convert To Integer" owner="BuiltIn">
+<msg time="2024-09-29T00:30:16.621975" level="INFO">${number} = 5</msg>
+<var>${number}</var>
+<arg>${number}</arg>
+<doc>Converts the given item to an integer number.</doc>
+<status status="PASS" start="2024-09-29T00:30:16.621703" elapsed="0.000307"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${number} == 1</arg>
+<arg>Return From Keyword</arg>
+<arg>1</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-09-29T00:30:16.622130" elapsed="0.000173"/>
+</kw>
+<kw name="Calculate Factorial">
+<kw name="Convert To Integer" owner="BuiltIn">
+<msg time="2024-09-29T00:30:16.623424" level="INFO">${number} = 4</msg>
+<var>${number}</var>
+<arg>${number}</arg>
+<doc>Converts the given item to an integer number.</doc>
+<status status="PASS" start="2024-09-29T00:30:16.623113" elapsed="0.000341"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${number} == 1</arg>
+<arg>Return From Keyword</arg>
+<arg>1</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-09-29T00:30:16.623571" elapsed="0.000197"/>
+</kw>
+<kw name="Calculate Factorial">
+<kw name="Convert To Integer" owner="BuiltIn">
+<msg time="2024-09-29T00:30:16.624852" level="INFO">${number} = 3</msg>
+<var>${number}</var>
+<arg>${number}</arg>
+<doc>Converts the given item to an integer number.</doc>
+<status status="PASS" start="2024-09-29T00:30:16.624662" elapsed="0.000240"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${number} == 1</arg>
+<arg>Return From Keyword</arg>
+<arg>1</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-09-29T00:30:16.625016" elapsed="0.000135"/>
+</kw>
+<kw name="Calculate Factorial">
+<kw name="Convert To Integer" owner="BuiltIn">
+<msg time="2024-09-29T00:30:16.625969" level="INFO">${number} = 2</msg>
+<var>${number}</var>
+<arg>${number}</arg>
+<doc>Converts the given item to an integer number.</doc>
+<status status="PASS" start="2024-09-29T00:30:16.625777" elapsed="0.000216"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${number} == 1</arg>
+<arg>Return From Keyword</arg>
+<arg>1</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-09-29T00:30:16.626084" elapsed="0.000124"/>
+</kw>
+<kw name="Calculate Factorial">
+<kw name="Convert To Integer" owner="BuiltIn">
+<msg time="2024-09-29T00:30:16.626992" level="INFO">${number} = 1</msg>
+<var>${number}</var>
+<arg>${number}</arg>
+<doc>Converts the given item to an integer number.</doc>
+<status status="PASS" start="2024-09-29T00:30:16.626793" elapsed="0.000227"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Return From Keyword" owner="BuiltIn">
+<msg time="2024-09-29T00:30:16.627355" level="INFO">Returning from the enclosing user keyword.</msg>
+<arg>1</arg>
+<doc>Returns from the enclosing user keyword.</doc>
+<status status="PASS" start="2024-09-29T00:30:16.627292" elapsed="0.000125"/>
+</kw>
+<arg>${number} == 1</arg>
+<arg>Return From Keyword</arg>
+<arg>1</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-09-29T00:30:16.627111" elapsed="0.000356"/>
+</kw>
+<kw name="Calculate Factorial">
+<var>${previous}</var>
+<arg>${number - 1}</arg>
+<status status="NOT RUN" start="2024-09-29T00:30:16.627588" elapsed="0.000019"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${result}</var>
+<arg>${number} * ${previous}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-09-29T00:30:16.627697" elapsed="0.000017"/>
+</kw>
+<kw name="Return From Keyword" owner="BuiltIn">
+<arg>${result}</arg>
+<doc>Returns from the enclosing user keyword.</doc>
+<status status="NOT RUN" start="2024-09-29T00:30:16.627795" elapsed="0.000016"/>
+</kw>
+<msg time="2024-09-29T00:30:16.627941" level="INFO">${previous} = 1</msg>
+<var>${previous}</var>
+<arg>${number - 1}</arg>
+<status status="PASS" start="2024-09-29T00:30:16.626338" elapsed="0.001625"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-09-29T00:30:16.628238" level="INFO">${result} = 2 * 1</msg>
+<var>${result}</var>
+<arg>${number} * ${previous}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-09-29T00:30:16.628075" elapsed="0.000184"/>
+</kw>
+<kw name="Return From Keyword" owner="BuiltIn">
+<msg time="2024-09-29T00:30:16.628404" level="INFO">Returning from the enclosing user keyword.</msg>
+<arg>${result}</arg>
+<doc>Returns from the enclosing user keyword.</doc>
+<status status="PASS" start="2024-09-29T00:30:16.628346" elapsed="0.000101"/>
+</kw>
+<msg time="2024-09-29T00:30:16.628564" level="INFO">${previous} = 2 * 1</msg>
+<var>${previous}</var>
+<arg>${number - 1}</arg>
+<status status="PASS" start="2024-09-29T00:30:16.625284" elapsed="0.003301"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-09-29T00:30:16.628808" level="INFO">${result} = 3 * 2 * 1</msg>
+<var>${result}</var>
+<arg>${number} * ${previous}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-09-29T00:30:16.628664" elapsed="0.000164"/>
+</kw>
+<kw name="Return From Keyword" owner="BuiltIn">
+<msg time="2024-09-29T00:30:16.629006" level="INFO">Returning from the enclosing user keyword.</msg>
+<arg>${result}</arg>
+<doc>Returns from the enclosing user keyword.</doc>
+<status status="PASS" start="2024-09-29T00:30:16.628952" elapsed="0.000096"/>
+</kw>
+<msg time="2024-09-29T00:30:16.629155" level="INFO">${previous} = 3 * 2 * 1</msg>
+<var>${previous}</var>
+<arg>${number - 1}</arg>
+<status status="PASS" start="2024-09-29T00:30:16.623964" elapsed="0.005211"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-09-29T00:30:16.629415" level="INFO">${result} = 4 * 3 * 2 * 1</msg>
+<var>${result}</var>
+<arg>${number} * ${previous}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-09-29T00:30:16.629258" elapsed="0.000179"/>
+</kw>
+<kw name="Return From Keyword" owner="BuiltIn">
+<msg time="2024-09-29T00:30:16.629581" level="INFO">Returning from the enclosing user keyword.</msg>
+<arg>${result}</arg>
+<doc>Returns from the enclosing user keyword.</doc>
+<status status="PASS" start="2024-09-29T00:30:16.629527" elapsed="0.000095"/>
+</kw>
+<msg time="2024-09-29T00:30:16.629732" level="INFO">${previous} = 4 * 3 * 2 * 1</msg>
+<var>${previous}</var>
+<arg>${number - 1}</arg>
+<status status="PASS" start="2024-09-29T00:30:16.622445" elapsed="0.007307"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-09-29T00:30:16.630087" level="INFO">${result} = 5 * 4 * 3 * 2 * 1</msg>
+<var>${result}</var>
+<arg>${number} * ${previous}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-09-29T00:30:16.629833" elapsed="0.000277"/>
+</kw>
+<kw name="Return From Keyword" owner="BuiltIn">
+<msg time="2024-09-29T00:30:16.630288" level="INFO">Returning from the enclosing user keyword.</msg>
+<arg>${result}</arg>
+<doc>Returns from the enclosing user keyword.</doc>
+<status status="PASS" start="2024-09-29T00:30:16.630233" elapsed="0.000099"/>
+</kw>
+<msg time="2024-09-29T00:30:16.630445" level="INFO">${result} = 5 * 4 * 3 * 2 * 1</msg>
+<var>${result}</var>
+<arg>5</arg>
+<status status="PASS" start="2024-09-29T00:30:16.621242" elapsed="0.009224"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<msg time="2024-09-29T00:30:16.631155" level="FAIL">5 * 4 * 3 * 2 * 1 != 120</msg>
+<arg>${result}</arg>
+<arg>120</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="FAIL" start="2024-09-29T00:30:16.630950" elapsed="0.000354">5 * 4 * 3 * 2 * 1 != 120</status>
+</kw>
+<status status="FAIL" start="2024-09-29T00:30:16.620266" elapsed="0.011432">5 * 4 * 3 * 2 * 1 != 120</status>
+</test>
+<status status="FAIL" start="2024-09-29T00:30:16.578127" elapsed="0.055454"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Assignment16">Assignment16</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

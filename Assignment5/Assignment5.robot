@@ -1,17 +1,20 @@
 ***Variables***
-${name}    
+@{items}    
 
 ***Test Cases***
 Validate
-    Greet User   
-    Greet User   John
+    Print All Items    "apple" "banana"    "cherry"
+
+
 
 
 
 ***Keywords***
-Greet User
-    [Arguments]        ${name}=Guest
-    Log To Console  Hello, ${name}
+Print All Items
+    [Arguments]        @{items}
+    FOR     ${item}     IN      @{items} 
+        Log To Console   ${item} 
+    END
 
     
 

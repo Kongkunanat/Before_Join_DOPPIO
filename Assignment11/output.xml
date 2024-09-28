@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.13.0rc2 on win32)" generated="2024-09-28T21:54:12.562456" rpa="false" schemaversion="5">
+<suite id="s1" name="Assignment11" source="C:\Users\Khongkhunanat\Desktop\Before_Join_Doppio\Assignment11\Assignment11.robot">
+<test id="s1-t1" name="Validate" line="5">
+<kw name="Create User Info">
+<return>
+<value>&amp;{user_info}</value>
+<status status="PASS" start="2024-09-28T21:54:12.634335" elapsed="0.000078"/>
+</return>
+<msg time="2024-09-28T21:54:12.634833" level="INFO">&amp;{return_list} = { name=John | age=30 | city=Bangkok }</msg>
+<var>&amp;{return_list}</var>
+<status status="PASS" start="2024-09-28T21:54:12.633871" elapsed="0.001013"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${user_info.name}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-28T21:54:12.635638" elapsed="0.001030"/>
+</kw>
+<status status="PASS" start="2024-09-28T21:54:12.632702" elapsed="0.004357"/>
+</test>
+<status status="PASS" start="2024-09-28T21:54:12.565331" elapsed="0.073323"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Assignment11">Assignment11</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-09-28T21:54:12.553318" level="WARN">Error in file 'C:\Users\Khongkhunanat\Desktop\Before_Join_Doppio\Assignment11\Assignment11.robot' on line 13: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+</errors>
+</robot>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.13.0rc2 on win32)" generated="2024-09-29T00:09:16.283697" rpa="false" schemaversion="5">
+<suite id="s1" name="Assignment15" source="C:\Users\Khongkhunanat\Desktop\Before_Join_Doppio\Assignment15\Assignment15.robot">
+<test id="s1-t1" name="Error Handling Example" line="2">
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Click Element invalid_locator">
+<msg time="2024-09-29T00:09:16.366517" level="FAIL">Keyword 'Click Element invalid_locator' expected 1 argument, got 0.</msg>
+<status status="FAIL" start="2024-09-29T00:09:16.366346" elapsed="0.000239">Keyword 'Click Element invalid_locator' expected 1 argument, got 0.</status>
+</kw>
+<msg time="2024-09-29T00:09:16.366754" level="INFO">${status} = False</msg>
+<var>${status}</var>
+<arg>Click Element invalid_locator</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2024-09-29T00:09:16.365885" elapsed="0.000905"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Status: ${status}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-29T00:09:16.367311" elapsed="0.000548"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text">
+<msg time="2024-09-29T00:09:16.369527" level="FAIL">No keyword with name 'Input Text' found.</msg>
+<arg>invalid_locator</arg>
+<arg>value</arg>
+<status status="FAIL" start="2024-09-29T00:09:16.369475" elapsed="0.000148">No keyword with name 'Input Text' found.</status>
+</kw>
+<arg>Input Text</arg>
+<arg>invalid_locator</arg>
+<arg>value</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2024-09-29T00:09:16.368349" elapsed="0.001407"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Ignored the error and continued</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-29T00:09:16.370248" elapsed="0.000350"/>
+</kw>
+<status status="PASS" start="2024-09-29T00:09:16.364208" elapsed="0.006730"/>
+</test>
+<status status="PASS" start="2024-09-29T00:09:16.287231" elapsed="0.084946"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Assignment15">Assignment15</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

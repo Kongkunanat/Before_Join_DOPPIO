@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on darwin)" generated="2024-10-03T11:56:20.570349" rpa="false" schemaversion="5">
+<suite id="s1" name="Assignment18" source="/Users/khongkhunanat.p/Desktop/Before_Join_Doppio/Assignment18/Assignment18.robot">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2024-10-03T11:56:20.580863" level="INFO">Suite is starting</msg>
+<arg>Suite is starting</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-03T11:56:20.580797" elapsed="0.000089"/>
+</kw>
+<test id="s1-t1" name="Test 1" line="6">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-03T11:56:20.581105" level="INFO">Running Test 1</msg>
+<arg>Running Test 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-03T11:56:20.581063" elapsed="0.000058"/>
+</kw>
+<status status="PASS" start="2024-10-03T11:56:20.580932" elapsed="0.000251"/>
+</test>
+<test id="s1-t2" name="Test 2" line="9">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-03T11:56:20.581422" level="INFO">Running Test 2</msg>
+<arg>Running Test 2</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-03T11:56:20.581377" elapsed="0.000062"/>
+</kw>
+<status status="PASS" start="2024-10-03T11:56:20.581270" elapsed="0.000219"/>
+</test>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2024-10-03T11:56:20.581690" level="INFO">Suite is ending</msg>
+<arg>Suite is ending</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-03T11:56:20.581659" elapsed="0.000044"/>
+</kw>
+<status status="PASS" start="2024-10-03T11:56:20.571210" elapsed="0.010507"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Assignment18">Assignment18</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

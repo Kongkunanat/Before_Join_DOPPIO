@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on darwin)" generated="2024-10-03T11:53:14.522512" rpa="false" schemaversion="5">
+<suite id="s1" name="Assignment17" source="/Users/khongkhunanat.p/Desktop/Before_Join_Doppio/Assignment17/Assignment17.robot">
+<test id="s1-t1" name="Example Test With Setup And Teardown" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary" type="SETUP">
+<msg time="2024-10-03T11:53:14.598204" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<arg>https://www.google.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-10-03T11:53:14.598103" elapsed="2.506528"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-03T11:53:17.105486" level="INFO">Test is running</msg>
+<arg>Test is running</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-03T11:53:17.105250" elapsed="0.000285"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-10-03T11:53:17.105789" elapsed="0.078604"/>
+</kw>
+<status status="PASS" start="2024-10-03T11:53:14.597650" elapsed="2.586895"/>
+</test>
+<status status="PASS" start="2024-10-03T11:53:14.523319" elapsed="2.661678"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Assignment17">Assignment17</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

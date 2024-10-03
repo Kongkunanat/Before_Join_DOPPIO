@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on darwin)" generated="2024-10-03T10:05:32.957558" rpa="false" schemaversion="5">
+<suite id="s1" name="Assignment4" source="/Users/khongkhunanat.p/Desktop/Before_Join_Doppio/Assignment4/Assignment4.robot">
+<test id="s1-t1" name="Validate" line="5">
+<kw name="Greet User">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-03T10:05:32.968030" level="INFO">Hello, Guest</msg>
+<arg>Hello, ${name}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-03T10:05:32.967969" elapsed="0.000087"/>
+</kw>
+<status status="PASS" start="2024-10-03T10:05:32.967787" elapsed="0.000306"/>
+</kw>
+<kw name="Greet User">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-03T10:05:32.968305" level="INFO">Hello, John</msg>
+<arg>Hello, ${name}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-03T10:05:32.968262" elapsed="0.000057"/>
+</kw>
+<arg>John</arg>
+<status status="PASS" start="2024-10-03T10:05:32.968171" elapsed="0.000168"/>
+</kw>
+<status status="PASS" start="2024-10-03T10:05:32.967532" elapsed="0.000862"/>
+</test>
+<status status="PASS" start="2024-10-03T10:05:32.958355" elapsed="0.010188"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Assignment4">Assignment4</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on darwin)" generated="2024-10-03T10:11:41.705485" rpa="false" schemaversion="5">
+<suite id="s1" name="Assignment5" source="/Users/khongkhunanat.p/Desktop/Before_Join_Doppio/Assignment5/Assignment5.robot">
+<test id="s1-t1" name="Validate" line="5">
+<kw name="Print All Items">
+<for flavor="IN">
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-03T10:11:41.716345" level="INFO">"apple"</msg>
+<arg>${item}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-03T10:11:41.716289" elapsed="0.000077"/>
+</kw>
+<var name="${item}">"apple"</var>
+<status status="PASS" start="2024-10-03T10:11:41.716191" elapsed="0.000200"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-03T10:11:41.716494" level="INFO">"banana"</msg>
+<arg>${item}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-03T10:11:41.716452" elapsed="0.000056"/>
+</kw>
+<var name="${item}">"banana"</var>
+<status status="PASS" start="2024-10-03T10:11:41.716423" elapsed="0.000097"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-03T10:11:41.716599" level="INFO">"cherry"</msg>
+<arg>${item}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-03T10:11:41.716566" elapsed="0.000044"/>
+</kw>
+<var name="${item}">"cherry"</var>
+<status status="PASS" start="2024-10-03T10:11:41.716544" elapsed="0.000076"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-03T10:11:41.716694" level="INFO">"Print All Items"</msg>
+<arg>${item}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-03T10:11:41.716663" elapsed="0.000042"/>
+</kw>
+<var name="${item}">"Print All Items"</var>
+<status status="PASS" start="2024-10-03T10:11:41.716642" elapsed="0.000072"/>
+</iter>
+<var>${item}</var>
+<value>@{items}</value>
+<status status="PASS" start="2024-10-03T10:11:41.716139" elapsed="0.000583"/>
+</for>
+<arg>"apple"</arg>
+<arg>"banana"</arg>
+<arg>"cherry"</arg>
+<arg>"Print All Items"</arg>
+<status status="PASS" start="2024-10-03T10:11:41.716028" elapsed="0.000715"/>
+</kw>
+<status status="PASS" start="2024-10-03T10:11:41.715755" elapsed="0.001052"/>
+</test>
+<status status="PASS" start="2024-10-03T10:11:41.706336" elapsed="0.010616"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Assignment5">Assignment5</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

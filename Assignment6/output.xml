@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on darwin)" generated="2024-10-03T10:15:07.209257" rpa="false" schemaversion="5">
+<suite id="s1" name="Assignment6" source="/Users/khongkhunanat.p/Desktop/Before_Join_Doppio/Assignment6/Assignment6.robot">
+<test id="s1-t1" name="Validate" line="5">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${GLOBAL_VAR}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-10-03T10:15:07.219520" elapsed="0.000102"/>
+</kw>
+<kw name="Show Local Variable">
+<kw name="Set Local Variable" owner="BuiltIn">
+<msg time="2024-10-03T10:15:07.219900" level="INFO">${GLOBAL_VAR} = "Local Value"</msg>
+<arg>${GLOBAL_VAR}</arg>
+<arg>"Local Value"</arg>
+<doc>Makes a variable available everywhere within the local scope.</doc>
+<status status="PASS" start="2024-10-03T10:15:07.219837" elapsed="0.000080"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${GLOBAL_VAR}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-10-03T10:15:07.219954" elapsed="0.000054"/>
+</kw>
+<status status="PASS" start="2024-10-03T10:15:07.219733" elapsed="0.000304"/>
+</kw>
+<kw name="Show Global Variable">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${GLOBAL_VAR}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-10-03T10:15:07.220163" elapsed="0.000048"/>
+</kw>
+<status status="PASS" start="2024-10-03T10:15:07.220093" elapsed="0.000138"/>
+</kw>
+<status status="PASS" start="2024-10-03T10:15:07.219240" elapsed="0.001031"/>
+</test>
+<status status="PASS" start="2024-10-03T10:15:07.209878" elapsed="0.010526"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Assignment6">Assignment6</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

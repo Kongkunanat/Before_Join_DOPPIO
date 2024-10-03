@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.13.0rc2 on win32)" generated="2024-09-29T01:49:57.967170" rpa="false" schemaversion="5">
+<suite id="s1" name="Assignment22" source="C:\Users\Khongkhunanat\Desktop\Before_Join_Doppio\Assignment22">
+<suite id="s1-s1" name="Assignment22" source="C:\Users\Khongkhunanat\Desktop\Before_Join_Doppio\Assignment22\Assignment22.robot">
+<test id="s1-s1-t1" name="Test With Tag 1" line="2">
+<tag>smoke Log This is a smoke test</tag>
+<status status="FAIL" start="2024-09-29T01:49:58.063671" elapsed="0.000483">Test cannot be empty.</status>
+</test>
+<test id="s1-s1-t2" name="Test With Multiple Tags" line="9">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-29T01:49:58.066878" level="INFO">This is a smoke and critical test</msg>
+<arg>This is a smoke and critical test</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-29T01:49:58.066720" elapsed="0.000241"/>
+</kw>
+<tag>critical</tag>
+<tag>smoke</tag>
+<status status="PASS" start="2024-09-29T01:49:58.065661" elapsed="0.001593"/>
+</test>
+<status status="FAIL" start="2024-09-29T01:49:58.061563" elapsed="0.007009"/>
+</suite>
+<status status="FAIL" start="2024-09-29T01:49:58.010228" elapsed="0.059893"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">critical</stat>
+<stat pass="1" fail="0" skip="0">smoke</stat>
+<stat pass="0" fail="1" skip="0">smoke Log This is a smoke test</stat>
+</tag>
+<suite>
+<stat pass="1" fail="1" skip="0" id="s1" name="Assignment22">Assignment22</stat>
+<stat pass="1" fail="1" skip="0" id="s1-s1" name="Assignment22">Assignment22.Assignment22</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

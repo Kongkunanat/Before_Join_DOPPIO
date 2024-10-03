@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on darwin)" generated="2024-10-03T11:48:27.980599" rpa="false" schemaversion="5">
+<suite id="s1" name="Assignment14" source="/Users/khongkhunanat.p/Desktop/Before_Join_Doppio/Assignment14/Assignment14.robot">
+<test id="s1-t1" name="Loop Control Example" line="2">
+<for flavor="IN RANGE">
+<iter>
+<kw name="Exit For Loop If" owner="BuiltIn">
+<arg>${number} == 5</arg>
+<doc>Stops executing the enclosing FOR loop if the ``condition`` is true.</doc>
+<status status="PASS" start="2024-10-03T11:48:27.990983" elapsed="0.000120"/>
+</kw>
+<kw name="Continue For Loop If" owner="BuiltIn">
+<arg>${number} == 3</arg>
+<doc>Skips the current FOR loop iteration if the ``condition`` is true.</doc>
+<status status="PASS" start="2024-10-03T11:48:27.991160" elapsed="0.000078"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${number}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-10-03T11:48:27.991276" elapsed="0.000056"/>
+</kw>
+<var name="${number}">1</var>
+<status status="PASS" start="2024-10-03T11:48:27.990785" elapsed="0.000564"/>
+</iter>
+<iter>
+<kw name="Exit For Loop If" owner="BuiltIn">
+<arg>${number} == 5</arg>
+<doc>Stops executing the enclosing FOR loop if the ``condition`` is true.</doc>
+<status status="PASS" start="2024-10-03T11:48:27.991419" elapsed="0.000063"/>
+</kw>
+<kw name="Continue For Loop If" owner="BuiltIn">
+<arg>${number} == 3</arg>
+<doc>Skips the current FOR loop iteration if the ``condition`` is true.</doc>
+<status status="PASS" start="2024-10-03T11:48:27.991513" elapsed="0.000052"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${number}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-10-03T11:48:27.991592" elapsed="0.000047"/>
+</kw>
+<var name="${number}">2</var>
+<status status="PASS" start="2024-10-03T11:48:27.991395" elapsed="0.000258"/>
+</iter>
+<iter>
+<kw name="Exit For Loop If" owner="BuiltIn">
+<arg>${number} == 5</arg>
+<doc>Stops executing the enclosing FOR loop if the ``condition`` is true.</doc>
+<status status="PASS" start="2024-10-03T11:48:27.991720" elapsed="0.000055"/>
+</kw>
+<kw name="Continue For Loop If" owner="BuiltIn">
+<msg time="2024-10-03T11:48:27.991852" level="INFO">Continuing for loop from the next iteration.</msg>
+<arg>${number} == 3</arg>
+<doc>Skips the current FOR loop iteration if the ``condition`` is true.</doc>
+<status status="PASS" start="2024-10-03T11:48:27.991800" elapsed="0.000078"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${number}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2024-10-03T11:48:27.991906" elapsed="0.000006"/>
+</kw>
+<var name="${number}">3</var>
+<status status="PASS" start="2024-10-03T11:48:27.991697" elapsed="0.000225"/>
+</iter>
+<iter>
+<kw name="Exit For Loop If" owner="BuiltIn">
+<arg>${number} == 5</arg>
+<doc>Stops executing the enclosing FOR loop if the ``condition`` is true.</doc>
+<status status="PASS" start="2024-10-03T11:48:27.991969" elapsed="0.000054"/>
+</kw>
+<kw name="Continue For Loop If" owner="BuiltIn">
+<arg>${number} == 3</arg>
+<doc>Skips the current FOR loop iteration if the ``condition`` is true.</doc>
+<status status="PASS" start="2024-10-03T11:48:27.992049" elapsed="0.000049"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${number}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-10-03T11:48:27.992122" elapsed="0.000046"/>
+</kw>
+<var name="${number}">4</var>
+<status status="PASS" start="2024-10-03T11:48:27.991951" elapsed="0.000231"/>
+</iter>
+<iter>
+<kw name="Exit For Loop If" owner="BuiltIn">
+<msg time="2024-10-03T11:48:27.992302" level="INFO">Exiting for loop altogether.</msg>
+<arg>${number} == 5</arg>
+<doc>Stops executing the enclosing FOR loop if the ``condition`` is true.</doc>
+<status status="PASS" start="2024-10-03T11:48:27.992244" elapsed="0.000078"/>
+</kw>
+<kw name="Continue For Loop If" owner="BuiltIn">
+<arg>${number} == 3</arg>
+<doc>Skips the current FOR loop iteration if the ``condition`` is true.</doc>
+<status status="NOT RUN" start="2024-10-03T11:48:27.992348" elapsed="0.000058"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${number}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2024-10-03T11:48:27.992433" elapsed="0.000005"/>
+</kw>
+<var name="${number}">5</var>
+<status status="PASS" start="2024-10-03T11:48:27.992218" elapsed="0.000229"/>
+</iter>
+<var>${number}</var>
+<value>1</value>
+<value>10</value>
+<status status="PASS" start="2024-10-03T11:48:27.990676" elapsed="0.001781"/>
+</for>
+<status status="PASS" start="2024-10-03T11:48:27.990540" elapsed="0.001981"/>
+</test>
+<status status="PASS" start="2024-10-03T11:48:27.981263" elapsed="0.011413"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Assignment14">Assignment14</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

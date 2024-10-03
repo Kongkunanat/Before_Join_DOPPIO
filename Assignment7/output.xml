@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on darwin)" generated="2024-10-03T10:22:27.074676" rpa="false" schemaversion="5">
+<suite id="s1" name="Assignment7" source="/Users/khongkhunanat.p/Desktop/Before_Join_Doppio/Assignment7/Assignment7.robot">
+<test id="s1-t1" name="Validate" line="5">
+<kw name="Pull Data from .yaml">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-03T10:22:27.085721" level="INFO">John</msg>
+<arg>${user.name}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-03T10:22:27.085518" elapsed="0.000225"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-03T10:22:27.085936" level="INFO">30</msg>
+<arg>${user.age}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-03T10:22:27.085793" elapsed="0.000159"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-03T10:22:27.086145" level="INFO">Bangkok</msg>
+<arg>${user.city}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-03T10:22:27.085988" elapsed="0.000172"/>
+</kw>
+<status status="PASS" start="2024-10-03T10:22:27.085344" elapsed="0.000839"/>
+</kw>
+<status status="PASS" start="2024-10-03T10:22:27.085086" elapsed="0.001159"/>
+</test>
+<status status="PASS" start="2024-10-03T10:22:27.075495" elapsed="0.010884"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Assignment7">Assignment7</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

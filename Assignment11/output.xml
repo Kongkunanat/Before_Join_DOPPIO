@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on darwin)" generated="2024-10-03T11:12:21.294396" rpa="false" schemaversion="5">
+<suite id="s1" name="Assignment11" source="/Users/khongkhunanat.p/Desktop/Before_Join_Doppio/Assignment11/Assignment11.robot">
+<test id="s1-t1" name="Validate" line="5">
+<kw name="Create User Info">
+<kw name="Return From Keyword" owner="BuiltIn">
+<msg time="2024-10-03T11:12:21.304963" level="INFO">Returning from the enclosing user keyword.</msg>
+<arg>&amp;{user_info}</arg>
+<doc>Returns from the enclosing user keyword.</doc>
+<status status="PASS" start="2024-10-03T11:12:21.304927" elapsed="0.000066"/>
+</kw>
+<msg time="2024-10-03T11:12:21.305093" level="INFO">&amp;{user} = { name=John | age=30 | city=Bangkok }</msg>
+<var>&amp;{user}</var>
+<status status="PASS" start="2024-10-03T11:12:21.304753" elapsed="0.000350"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${user.name}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-10-03T11:12:21.305166" elapsed="0.000227"/>
+</kw>
+<status status="PASS" start="2024-10-03T11:12:21.304496" elapsed="0.000950"/>
+</test>
+<status status="PASS" start="2024-10-03T11:12:21.295178" elapsed="0.010409"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Assignment11">Assignment11</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

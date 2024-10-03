@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on darwin)" generated="2024-10-03T10:59:54.117815" rpa="false" schemaversion="5">
+<suite id="s1" name="Assignment9" source="/Users/khongkhunanat.p/Desktop/Before_Join_Doppio/Assignment9/Assignment9.robot">
+<test id="s1-t1" name="Validate" line="5">
+<kw name="Calculate Square">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-10-03T10:59:54.128364" level="INFO">${result} = 4 * 4</msg>
+<var>${result}</var>
+<arg>${number} * ${number}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-10-03T10:59:54.128283" elapsed="0.000093"/>
+</kw>
+<kw name="Return From Keyword" owner="BuiltIn">
+<msg time="2024-10-03T10:59:54.128466" level="INFO">Returning from the enclosing user keyword.</msg>
+<arg>${result}</arg>
+<doc>Returns from the enclosing user keyword.</doc>
+<status status="PASS" start="2024-10-03T10:59:54.128436" elapsed="0.000054"/>
+</kw>
+<msg time="2024-10-03T10:59:54.128538" level="INFO">${square} = 4 * 4</msg>
+<var>${square}</var>
+<arg>4</arg>
+<status status="PASS" start="2024-10-03T10:59:54.128102" elapsed="0.000443"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<msg time="2024-10-03T10:59:54.128699" level="FAIL">4 * 4 != 16</msg>
+<arg>${square}</arg>
+<arg>16</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="FAIL" start="2024-10-03T10:59:54.128608" elapsed="0.000142">4 * 4 != 16</status>
+</kw>
+<status status="FAIL" start="2024-10-03T10:59:54.127836" elapsed="0.001000">4 * 4 != 16</status>
+</test>
+<status status="FAIL" start="2024-10-03T10:59:54.118588" elapsed="0.010399"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Assignment9">Assignment9</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

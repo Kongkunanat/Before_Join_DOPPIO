@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on darwin)" generated="2024-10-03T11:34:51.043989" rpa="false" schemaversion="5">
+<suite id="s1" name="Assignment1" source="/Users/khongkhunanat.p/Desktop/Before_Join_Doppio/Assignment1/Assignment1.robot">
+<test id="s1-t1" name="Validate" line="2">
+<kw name="VAlidate Age">
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Not eligible for voting</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-10-03T11:34:51.054682" elapsed="0.000057"/>
+</kw>
+<arg>${age}&gt;18</arg>
+<arg>Log To Console</arg>
+<arg>Eligible for voting</arg>
+<arg>ELSE</arg>
+<arg>Log To Console</arg>
+<arg>Not eligible for voting</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-10-03T11:34:51.054585" elapsed="0.000199"/>
+</kw>
+<arg>16</arg>
+<status status="PASS" start="2024-10-03T11:34:51.054394" elapsed="0.000424"/>
+</kw>
+<kw name="VAlidate Age">
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Eligible for voting</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-10-03T11:34:51.055054" elapsed="0.000042"/>
+</kw>
+<arg>${age}&gt;18</arg>
+<arg>Log To Console</arg>
+<arg>Eligible for voting</arg>
+<arg>ELSE</arg>
+<arg>Log To Console</arg>
+<arg>Not eligible for voting</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-10-03T11:34:51.054985" elapsed="0.000134"/>
+</kw>
+<arg>20</arg>
+<status status="PASS" start="2024-10-03T11:34:51.054892" elapsed="0.000258"/>
+</kw>
+<status status="PASS" start="2024-10-03T11:34:51.054130" elapsed="0.001078"/>
+</test>
+<status status="PASS" start="2024-10-03T11:34:51.044816" elapsed="0.010558"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Assignment1">Assignment1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on darwin)" generated="2024-10-03T12:58:51.978656" rpa="false" schemaversion="5">
+<suite id="s1" name="Assignment19" source="/Users/khongkhunanat.p/Desktop/Before_Join_Doppio/Assignment19/Assignment19.robot">
+<test id="s1-t1" name="Test Case With Teardown" line="5">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-03T12:58:51.992486" level="INFO">Running the test</msg>
+<arg>Running the test</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-03T12:58:51.992421" elapsed="0.000090"/>
+</kw>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2024-10-03T12:58:51.992658" level="INFO">Test Case Teardown is running</msg>
+<arg>Test Case Teardown is running</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-03T12:58:51.992615" elapsed="0.000060"/>
+</kw>
+<status status="PASS" start="2024-10-03T12:58:51.992135" elapsed="0.000570"/>
+</test>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2024-10-03T12:58:51.992907" level="INFO">Suite Teardown is running</msg>
+<arg>Suite Teardown is running</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-03T12:58:51.992872" elapsed="0.000050"/>
+</kw>
+<status status="PASS" start="2024-10-03T12:58:51.979196" elapsed="0.013740"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Assignment19">Assignment19</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

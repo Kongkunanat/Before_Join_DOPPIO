@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on darwin)" generated="2024-10-03T11:41:42.978177" rpa="false" schemaversion="5">
+<suite id="s1" name="Assignment13" source="/Users/khongkhunanat.p/Desktop/Before_Join_Doppio/Assignment13/Assignment13.robot">
+<test id="s1-t1" name="Print Fruit List" line="5">
+<for flavor="IN">
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${fruit}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-10-03T11:41:42.988511" elapsed="0.000127"/>
+</kw>
+<var name="${fruit}">apple banana cherry</var>
+<status status="PASS" start="2024-10-03T11:41:42.988220" elapsed="0.000537"/>
+</iter>
+<var>${fruit}</var>
+<value>@{fruits}</value>
+<status status="PASS" start="2024-10-03T11:41:42.988143" elapsed="0.000638"/>
+</for>
+<status status="PASS" start="2024-10-03T11:41:42.988031" elapsed="0.000844"/>
+</test>
+<status status="PASS" start="2024-10-03T11:41:42.978796" elapsed="0.010252"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Assignment13">Assignment13</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

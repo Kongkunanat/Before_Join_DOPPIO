@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on darwin)" generated="2024-10-03T11:40:15.527664" rpa="false" schemaversion="5">
+<suite id="s1" name="Assignment12" source="/Users/khongkhunanat.p/Desktop/Before_Join_Doppio/Assignment12/Assignment12.robot">
+<test id="s1-t1" name="Age Verification" line="6">
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>You are underage</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-10-03T11:40:15.538264" elapsed="0.000062"/>
+</kw>
+<arg>${age}&gt;18</arg>
+<arg>Log To Console</arg>
+<arg>You are an adult</arg>
+<arg>ELSE IF</arg>
+<arg>${age}==18</arg>
+<arg>Log To Console</arg>
+<arg>You just became an adult</arg>
+<arg>ELSE</arg>
+<arg>Log To Console</arg>
+<arg>You are underage</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-10-03T11:40:15.538121" elapsed="0.000251"/>
+</kw>
+<status status="PASS" start="2024-10-03T11:40:15.537821" elapsed="0.000632"/>
+</test>
+<status status="PASS" start="2024-10-03T11:40:15.528503" elapsed="0.010104"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Assignment12">Assignment12</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

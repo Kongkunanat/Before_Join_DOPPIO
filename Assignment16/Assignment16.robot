@@ -1,5 +1,5 @@
 *** Test Cases ***
-Error Handling Example
+Calculate Factorial
     ${result}    Calculate Factorial    5
     Should Be Equal    ${result}    120
 
@@ -14,10 +14,11 @@ Calculate Factorial
 
     ${previous}    Calculate Factorial    ${number - 1}
 
-    ${result}    Set Variable    ${number} * ${previous}
+    # ${result}    Set Variable    ${number} * ${previous}
+    ${result}     evaluate    ${number} * ${previous}
+    ${result}     Convert To String   ${result}
 
     Return From Keyword    ${result}
     
-
 
 
